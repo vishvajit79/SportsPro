@@ -1,0 +1,7 @@
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/Content/images/bg-pattern.png);
+    background-repeat: repeat;
+    overflow: auto;
+
+}

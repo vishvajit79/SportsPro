@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>SportsPro</title>
+    <link href="Content/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="Content/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse bg-danger">
+        <div class="container-fluid">
+            <div class="navbar-header text-center text-white">
+                <h2>SportsPro - Sports management software for the sports enthusiast</h2>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2">
+                <form id="form1" runat="server">
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer bg-faded card-footer bg-inverse">
+        <div class="container-fluid">
+            <div class="text-center text-success">
+                <h6>© 2017 - COMP2139 - SportsPro</h6>
+            </div>
+            <div class="text-center">
+                <a href="Default.aspx">Home Page</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="Customers.aspx">Customer Page</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="Survey_Page.aspx">Survey Page</a>
+                <br />
+                
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
