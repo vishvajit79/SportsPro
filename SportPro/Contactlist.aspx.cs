@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 public partial class Contactlist : System.Web.UI.Page
 {
-    private CallListData cList;
+    private CustomerList cList;
     
     protected void Page_Load(object sender, EventArgs e)
     {
-        cList = CallListData.getCallList();
+        cList = CustomerList.getCallList();
         // Customer currentCust = (Customer)HttpContext.Current.Session["presentCustomer"];
         if (!IsPostBack)
             DisplayList();

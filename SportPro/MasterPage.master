@@ -37,11 +37,9 @@
                 <h6>© 2017 - COMP2139 - SportsPro</h6>
             </div>
             <div class="text-center">
-                <a href="Default.aspx">Home Page</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="Customers.aspx">Customer Page</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="Survey_Page.aspx">Survey Page</a>
-                <br />
-                
+                <a href="Default.aspx" class="btn btn-outline-info">Home Page</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="Customers.aspx" class="btn btn-outline-info">Customer Page</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="Survey_Page.aspx" class="btn btn-outline-info">Survey Page</a>
             </div>
 
         </div>

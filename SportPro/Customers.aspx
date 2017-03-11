@@ -11,7 +11,7 @@
                 <tr>
                     <td class="text-white">Select a customer:</td>
                     <td>
-                        <asp:DropDownList ID="ddlCustomerNames" class="btn btn-secondary dropdown-toggle text-primary" runat="server" DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="CustomerID" AutoPostBack="True">
+                        <asp:DropDownList ID="ddlCustomerNames" CssClass="btn btn-secondary dropdown-toggle text-primary" runat="server" DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="CustomerID" AutoPostBack="True">
                         </asp:DropDownList>
                     </td>
                 </tr>

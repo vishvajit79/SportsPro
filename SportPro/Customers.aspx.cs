@@ -36,7 +36,7 @@ public partial class Customers : System.Web.UI.Page
 
     protected void btnAddToContactList_Click(object sender, EventArgs e)
     {
-        CallListData cList = CallListData.getCallList();
+        CustomerList cList = CustomerList.getCallList();
         Customer customer = cList[this.cust.getName()];
         if (customer == null)
         {

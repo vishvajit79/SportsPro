@@ -18,7 +18,7 @@
         <br />
         <br />
         <h3>Group Members</h3>
-        <p class="text-muted table-bordered">
+        <p class="text-muted">
             Akash Chamaria - 101024951<br />
             Vishvajit Kher - 101015270<br />
             Karan Acharya - 101026087<br />
